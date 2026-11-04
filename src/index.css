@@ -1,0 +1,64 @@
+
+:root {
+  /* Brand Colors */
+  --primary: #1F6463;
+  --primary-dark: #174B4A;
+  --primary-light: #76A6A0;
+
+  /* Background Colors */
+  --bg: #F4F3ED;
+  --surface: #FFFFFF;
+  --surface-soft: #E9EEE9;
+
+  /* Accent Colors */
+  --accent: #D0B58C;
+  --accent-light: #E8DCC8;
+
+  /* Text Colors */
+  --text: #344544;
+  --text-dark: #1C302F;
+  --text-muted: #7A8985;
+
+  /* Borders & Shadows */
+  --border: #E2E5DF;
+  --shadow: 0 8px 25px rgba(31, 100, 99, 0.08);
+
+  /* Fonts */
+  --sans: 'Segoe UI', Tahoma, sans-serif;
+  --heading: 'Segoe UI', Tahoma, sans-serif;
+
+  font-family: var(--sans);
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: var(--sans);
+  background: var(--bg);
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
